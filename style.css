@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(/images/computers-and-technology-4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+.navbar {
+  width: 1200px;
+  margin: auto;
+  height: 75px;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo
+{
+    color: rgba(54, 163, 39, 0.671);
+    font-size: 20px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+     padding-top:10px;
+}
+
+ 
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+  list-style: none;
+  text-decoration: none;
+  margin-left:10px ;
+  margin-top: 14px ;
+  font-size:14px ;
+}
+
+ul li a {
+  text-decoration: none;
+  color: whitesmoke ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;                
+}
+ul li a:hover{
+  color: green;
+}
+
+.search{
+
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch{
+  font-family: 'Times New Roman', Times, serif;
+  width: 200px;
+  height: 40px;
+background: transparent;
+border: 1px solid #51ff00;
+margin-top: 13px;
+color: #fff;
+border-right: none;
+font-size: 16px;
+float: left;
+padding: 5px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+
+
+
+}
+
+.btn{
+  width:100px ;
+ height: 40px;
+border: 2px solid rgb(41, 197, 27) ;
+background: rgb(41, 197, 27)  ;
+margin-top: 13px;
+color: #fff;
+font-size: 15px;
+border-bottom-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+
+}
+
+.btn:focus{
+  outline: none;
+
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.content{
+  
+  float: left;
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+  
+}
+
+.content .par{
+  padding-left:20px ;
+  padding-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.content h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 40px ;
+  background:rgb(41, 197, 27) ;
+  border: none;
+  margin-left: 3vh;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.cn a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+
+.cn:hover{
+  background: white;
+  transition: .3s ease;
+}
+
+.content span{
+  color:rgb(41, 197, 27)
+}
+
+.form
+{
+  width: 250px;
+height: 300px ;
+background: linear-gradient(to top, rgba(0,0,0,0.8) 50% rgba(0,0,0,0.8) 50%);
+position:absolute;
+top: 150px;
+left: 870px;
+} 
+
+.form{
+  color: white; 
+  font-family: Arial, Helvetica, sans-serif;
+  background:rgb(34, 26, 26);
+  border-radius: 10px;
+  padding: 10px;
+text-align: center;
+height: 80vh;
+width: 50vh;
+margin: 10px;
+}
+
+.Btn a{
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  
+  
+}
+
+.login
+{
+  background-color: rgba(255, 235, 205, 0.712);
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+}
+
+div input{
+margin-top: 40px ;
+padding: 20px;
+width: 40vh ;
+background: transparent;
+border-style: none;
+
+
+}
+
+.icons{
+  padding: 20px 0 0 0;
+  letter-spacing: 10px;
+}
+
+.icons a{
+
+
+  font-size: 40px;
+  color: #fff;
+  
+}
+
+.signup{
+  text-decoration: none;
+  color: aliceblue;
+  
+}
+
+.signup span{
+  color:rgb(41, 197, 27);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link{
+  font-size: 20px;
+}
+
+.email,.password{
+
+  font-size: 30px;
+}
